@@ -1,0 +1,102 @@
+@font-face
+{
+	font-family: 'PermanentMarker';
+	src: url('polices/PermanentMarker.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	width: 540px;
+	background-color: grey;
+	text-align: center;
+	box-shadow: 4px 4px 4px black;
+}
+
+#header h1{
+	font-family: 'PermanentMarker', Arial, sans-serif;
+	font-size: 4em;
+	font-weight: normal;
+	text-shadow: 0px 4px 4px grey;
+}
+
+#header a{
+	font-family: 'PermanentMarker', Arial, sans-serif;
+	text-decoration: none;
+	color: black;
+}
+
+#header a:hover{
+	text-shadow: 0px 4px 4px black;
+	color: red;
+}
+
+#header p{
+	font-family: 'PermanentMarker', Arial, sans-serif;
+	font-size: 120%;
+	color: darkgreen;
+	margin-bottom: 50px;
+}
+
+#message p{
+	font-size: 1em;
+}
+
+#submit{
+	margin-left: 50px;
+}
+
+#circle{
+	height: 520px;
+	width: 520px;
+	margin-top: 40px;
+	background: black;
+	border-radius: 50%;
+	position: relative;
+	border-width: 10px;
+	border-color: black;
+	text-align: center;
+	display: block;
+}
+
+#topleft{
+	height: 250px;
+	width: 250px;
+	background: darkgreen;
+	border-radius: 250px 0 0 0;
+	position: absolute;
+}
+
+#topright{
+	height: 250px;
+	width: 250px;
+	background: goldenrod;
+	border-radius: 0 250px 0 0;
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 270px;
+}
+
+#bottomleft{
+	height: 250px;
+	width: 250px;
+	background: darkblue;
+	border-radius: 0 0 0 250px;
+	position: absolute;
+	margin-top: 270px;
+}
+
+#bottomright{
+	height: 250px;
+	width: 250px;
+	background: darkred;
+	border-radius: 0 0 250px 0;
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 270px;
+}
+
+#footer{
+	font-family: 'PermanentMarker', Arial, sans-serif;
+	font-size: 2em;
+}
